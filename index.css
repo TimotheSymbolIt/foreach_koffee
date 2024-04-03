@@ -130,3 +130,14 @@ header {
 #notre_histoire p {
 	text-align: justify;
 }
+
+/* Divider après la section 'Notre Histoire' */
+
+#divider_after_section_our_story {
+	height: 200px;
+	background-image: url(./assets/images/eat_together.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	border-top: 2px solid #7d0d23;
+}
