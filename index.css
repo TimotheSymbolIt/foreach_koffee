@@ -39,6 +39,8 @@ header {
 	background-color: #7d0d23;
 	color: white;
 	padding: 10px;
+
+    border-bottom: 2px solid #500313;
 }
 
 #links_header {
