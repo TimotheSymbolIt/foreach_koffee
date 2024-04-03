@@ -24,6 +24,10 @@ img {
 	height: 100%;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 /* Header */
 
 h1 {
@@ -40,7 +44,7 @@ header {
 	color: white;
 	padding: 10px;
 
-    border-bottom: 2px solid #500313;
+	border-bottom: 2px solid #500313;
 }
 
 #links_header {
@@ -108,3 +112,21 @@ header {
 }
 
 /*  */
+
+/* Notre histoire */
+
+#notre_histoire {
+	max-width: 1400px;
+	margin: auto;
+	padding: 50px 0px;
+	color: #7d0d23;
+}
+
+#notre_histoire h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#notre_histoire p {
+	text-align: justify;
+}
