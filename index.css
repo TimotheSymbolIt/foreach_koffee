@@ -175,4 +175,17 @@ header {
 
 .menu {
 	background-color: white;
+
+	display: flex;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.image_container {
+	width: 30%;
+}
+
+.menu_description {
+	width: 70%;
+	padding-left: 10px;
 }
