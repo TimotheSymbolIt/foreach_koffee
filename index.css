@@ -76,3 +76,33 @@ header {
 }
 
 /*  */
+
+/* Jumbotron */
+
+#jumbotron {
+	height: 500px;
+	background-image: url(./assets/images/flowered_coffee.jpg);
+	background-position: center;
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+	border-bottom: 2px solid #7d0d23;
+	text-shadow: 2px 0 #7d0d23, -2px 0 #7d0d23, 0 2px #7d0d23, 0 -2px #7d0d23,
+		1px 1px #7d0d23, -1px -1px #7d0d23, 1px -1px #7d0d23, -1px 1px #7d0d23;
+}
+
+#jumbotron_title {
+	font-size: 50px;
+	font-weight: bolder;
+}
+#jumbotron_subtitle {
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+/*  */
