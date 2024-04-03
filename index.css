@@ -141,3 +141,38 @@ header {
 	background-attachment: fixed;
 	border-top: 2px solid #7d0d23;
 }
+
+/*  */
+
+/* Section Notre Carte */
+
+#our_menu {
+	padding: 50px 0px;
+	background-color: #7d0d23;
+}
+
+#our_menu h2 {
+	color: white;
+	text-align: center;
+}
+
+#our_menu ul {
+	background-color: #7d0d23;
+	padding: 10px;
+
+	display: flex;
+	flex-wrap: wrap;
+
+	max-width: 1400px;
+	margin: auto;
+}
+
+#our_menu li {
+	margin: 10px 0px;
+	padding: 10px;
+	width: 50%;
+}
+
+.menu {
+	background-color: white;
+}
