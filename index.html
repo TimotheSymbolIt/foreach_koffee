@@ -157,18 +157,33 @@
         <form action="">
           <div id="id_inputs">
             <div class="input_container">
-              <label for="">Prenom:</label>
-              <input type="text" />
+              <label for="firstname">Prenom:</label>
+              <input
+                id="firstname"
+                name="firstname"
+                type="text"
+                placeholder="Jerôme"
+              />
             </div>
             <div class="input_container">
-              <label for="">Email:</label>
-              <input type="email" />
+              <label for="email">Email:</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="jerome@gmail.com"
+              />
             </div>
           </div>
           <div id="message_input">
-            <label for="">Message:</label>
-            <textarea name="" id=""></textarea>
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Votre message ici.."
+            ></textarea>
           </div>
+          <span id="button">Envoyer</span>
         </form>
       </section>
     </main>

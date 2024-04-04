@@ -154,6 +154,7 @@ header {
 #our_menu h2 {
   color: white;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #our_menu ul {
@@ -200,12 +201,13 @@ header {
 
 #contact h2 {
   text-align: center;
+  color: #7d0d23;
+  margin-bottom: 20px;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  background-color: pink;
 
   max-width: 1400px;
   margin: auto;
@@ -219,7 +221,6 @@ form {
   display: flex;
   flex-direction: column;
   width: 50%;
-  background-color: rgb(122, 122, 237);
 }
 
 .input_container:first-of-type {
@@ -227,8 +228,38 @@ form {
 }
 
 #message_input {
-  background-color: green;
-
   display: flex;
   flex-direction: column;
+}
+
+label {
+  margin: 5px 0;
+  font-weight: bold;
+  color: #7d0d23;
+}
+
+input,
+textarea {
+  padding: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+#button {
+  align-self: center;
+  background-color: #7d0d23;
+  color: white;
+
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#button:hover {
+  background-color: #500313;
+  cursor: pointer;
 }
