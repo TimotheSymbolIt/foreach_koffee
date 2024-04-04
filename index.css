@@ -15,6 +15,11 @@
   font-family: Monserrat;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
@@ -115,19 +120,19 @@ header {
 
 /* Notre histoire */
 
-#notre_histoire {
+#our_story {
   max-width: 1400px;
   margin: auto;
   padding: 50px 0px;
   color: #7d0d23;
 }
 
-#notre_histoire h2 {
+#our_story h2 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-#notre_histoire p {
+#our_story p {
   text-align: justify;
 }
 
