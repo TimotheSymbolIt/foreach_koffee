@@ -264,3 +264,22 @@ textarea {
   background-color: #500313;
   cursor: pointer;
 }
+
+/*  */
+
+/* Footer */
+
+footer {
+  background-color: #7d0d23;
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+footer div {
+  margin-bottom: 10px;
+}
+
+footer span {
+  margin: 0px 20px;
+}
